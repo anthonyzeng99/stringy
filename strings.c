@@ -64,9 +64,9 @@ int main() {
    printf("built-in:%s\nmine:%s\n",strcpy(stringtocopyto,stringtocopy),mystrcpy(stringtocopyto,stringtocopy));
    
    //strncpy test
-   char strncat1[] = "pine";
+   char strncat1[100] = "pine";
    char strncat2[] = "apples";
-   char mystrncat1[] = "pine";
+   char mystrncat1[100] = "pine";
    char mystrncat2[] = "apples";
    printf("\nSTRNCAT TEST:\noriginal string:pine\nstring to cat:apple\n# of char to cat:5\nbuilt-in:%s\nmine:%s\n",strncat(strncat1,strncat2,5), mystrncat(mystrncat1,mystrncat2,5));
 
